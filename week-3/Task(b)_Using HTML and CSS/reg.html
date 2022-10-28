@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=f, initial-scale=1.0">
+    <title>Sign Up Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Hi there!!</h1>
+    <p>kindly fill in your details to register an account with us.</p>
+    <div class="container">
+    <form action="login.html">
+        <table>
+            <tr>
+                <td>
+                    <label for="fname">First Name</label>
+                </td>
+                <td>
+                    <input type="text" name="fname" id="fname" maxlength="12" minlength="3" required>
+                </td>
+                </tr>
+                <tr>
+                    <td>   
+                    <label for="lname">Last Name</label>
+                </td>
+                <td>
+                    <input type="text" name="lname" id="lname" maxlength="12" minlength="3" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                </td>
+                <td>
+                    <input type="email" name="email" id="email" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pnumber">Phone Number</label>
+                </td>
+                <td>
+                    <input type="tel" name="pnumber" id="pnumber" 
+                    placeholder="123 2345 4567"
+                    pattern="[0-9]{3} [0-9]{4} [0-9]{4}"  required> 
+                </td>
+            
+            </tr>
+            <tr>
+                <td>
+                  <label for="gender">Gender</label>
+                </td>
+            <td>
+                  <select name="gender" id="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                  </select>
+                </td>
+              </tr>
+            <tr>
+                <td>
+                    <label for="dob">Date of Birth</label>
+                </td>
+                <td>
+                    <input type="date" name="dob" id="dob"  max="2020-12-31"  required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="favcolor">Favourite Color</label>    
+                </td>
+                <td>
+                    <input type="color" name="favcolor" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="submit">
+                    <a href="login.html"><input type="submit" value="submit"></a>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+
+</html>

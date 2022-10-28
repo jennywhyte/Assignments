@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: rebeccapurple;
+    border: 3px solid black;
+    
+  }
+  
+  .container{
+   padding: 0;
+    
+  } 
+  
+  form,table{
+    height: 100%;
+    width: 100%;
+    resize: vertical;
+    padding: 0%;
+  }
+  
+  input[type="text"],input[type="password"],input[tpye="submit"]{
+    padding: 2px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid #dd45fe;
+    box-sizing:border-box;
+    
+  }
+  
+  button{
+    background-color: blue;
+  }
+
+  .submit{
+    text-align: right;
+    
+  }
+  

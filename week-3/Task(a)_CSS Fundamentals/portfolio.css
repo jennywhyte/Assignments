@@ -1,0 +1,71 @@
+html body{
+    background-color: rgba(93, 179, 236, 0.8);
+}
+/*  */
+
+.header{
+    position: static;
+}
+.topnavmenu{
+    overflow: hidden;
+    top: 0;
+    margin-top: 30px;
+    position: fixed;
+    float: left;
+    left: 800px;
+}
+
+.topnavmenu a{
+    
+    font-size: 16px;
+    color: #03332b;
+    color: chocolate;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 16px;
+}
+
+.topnavmenu a:hover button:hover{
+    color: rgb(151, 135, 166);
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    align-self: center;
+}
+.name{
+    text-align: center;
+}
+
+footer{
+    margin: auto;
+    
+}
+
+table{
+    width: 75%;
+}
+td{
+    text-align: justify;
+    vertical-align: top;
+}
+button:hover{
+    border: 1px solid black;
+    color: antiquewhite;
+}
+
+.parent{
+    display: flex;
+    
+}
+.contacts{
+    padding: 30px;
+    width: 50%;
+    
+}
+.socials{
+    padding: 30px;
+    width: 50%;
+    
+}
