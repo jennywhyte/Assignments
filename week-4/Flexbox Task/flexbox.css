@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+.parent{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25vh;
+}
+h2{
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 50px;
+    
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+img{
+    margin-bottom: 20px;
+}
+
+.sedan .suv .luxury{
+    max-width: 100px;
+}
+
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    padding: 4rem;
+}
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    padding: 4rem;
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 4rem;
+}
+button {
+    background-color: hsl(0, 0%, 95%);
+    font-weight: 400;
+    font-family: 'lexend Deca',sans-serif;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-top: 100px;
+    width: 150px;
+}
+.button1 {
+    color: hsl(31, 77%, 52%);
+}
+.button2{
+    color: hsl(184, 100%, 22%);
+}
+.button3{
+    color: hsl(179, 100%, 13%);
+}
+.button1:active{
+    cursor: pointer;
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border: 1px solid white;
+    /* border-radius: 30px; */
+}
+.button1:hover{
+    cursor: pointer;
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border: 1px solid white;
+    /* border-radius: 30px; */
+}
+.button2:active{
+    cursor: pointer;
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border: 1px solid white;
+    /* border-radius: 30px; */
+}
+.button2:hover{
+    cursor: pointer;
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border: 1px solid white;
+    /* border-radius: 30px; */
+}
+.button3:active{
+    cursor: pointer;
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    border: 1px solid white;
+    /* border-radius: 30px; */
+}
+
+.button3:hover{
+    cursor: pointer;
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    border: 1px solid white;
+    /* border-radius: 30px; */
+}
+
+
+@media screen and (max-width:881px) {
+    .parent{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 5rem 0;
+    }
+    .suv .luxury .sedan{
+        min-width: 22rem;
+    }
+    .sedan{
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0;
+    }
+    .luxury{
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    .parent{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 5rem 0;
+    }
+    .suv .luxury .sedan{
+        min-width: 22rem;
+    }
+    .sedan{
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0;
+    }
+    .luxury{
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+    }
+    h2{
+        font-size: 30px;
+        
+    }
+
+}
